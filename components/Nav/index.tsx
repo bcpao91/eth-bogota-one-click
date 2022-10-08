@@ -6,7 +6,7 @@ export default function Nav() {
     <nav>
       <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
         <Link href={'/'}>
-          <div className="">Outsider Trading</div>
+          <div className="cursor-pointer">Outsider Trading</div>
         </Link>
       </div>
     </nav>
