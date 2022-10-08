@@ -2,6 +2,8 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Nav from '../components/Nav';
+import OneClickCard from '../components/OneClickCard';
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -12,7 +14,9 @@ const Home: NextPage = () => {
       </Head>
       <div className="p-6 min-h-screen">
         <Nav />
-        <main></main>
+        <main>
+          <OneClickCard />
+        </main>
       </div>
 
       <footer></footer>
